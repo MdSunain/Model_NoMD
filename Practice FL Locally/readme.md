@@ -18,11 +18,11 @@ Sample OUTPUT:
 
 i.  for client1: we see Loss Decreasing gradually in each round
     Round 1 --> Epoch1: Loss = 18.5840
-                Epoch5: Loss = 14.1656
+                , Epoch5: Loss = 14.1656 | 
     Round 2 --> Epoch1: Loss = 14.8394
-                Epoch5: Loss = 7.6383
+                , Epoch5: Loss = 7.6383 | 
     Round 3 --> Epoch1: Loss = 9.8005
-                Epoch5: Loss = 4.4412
+                , Epoch5: Loss = 4.4412 |
     Improvement from ~ 18 --> ~ 4 //  <a. Round Wise Loss Improvement>
 
 ii. finally
@@ -33,5 +33,6 @@ ii. finally
 * They improve at similar rates
 * Bias is reducing
 <b. This means the global model is stabilizing across non-IID data.>
+
 
 
