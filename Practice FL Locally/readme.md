@@ -1,3 +1,5 @@
+###Implementing Federated Learning in Sample Dataset  
+
 Prerequisite: to download dataset, you can download using this link to my google drive 
 Folder name: federated_data (Please Do Not Change the Folder Name)
 
@@ -32,3 +34,4 @@ ii. finally
 * They improve at similar rates
 * Bias is reducing
 <b. This means the global model is stabilizing across non-IID data.>
+
