@@ -1,9 +1,10 @@
+# FEDERATED FINAL 
 # Step 4: Run this to perform Federated Learning across multiple clients
 
 import torch
-from client_train import train_client
-from server import fed_avg
-from model import SimpleCNN
+from step2 import train_client
+from step3 import fed_avg
+from step1 import SimpleCNN
 from torchvision import datasets, transforms
 
 # Image Cleaning Process
