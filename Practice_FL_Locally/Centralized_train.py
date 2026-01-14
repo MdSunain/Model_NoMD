@@ -1,7 +1,7 @@
 # Optional: Run this to, Understand How Centralized Training Works
 
 
-import torch # to use Pytorch
+import torch # to use Pytorch 
 import torch.nn as nn # neural network modules
 import torch.optim as optim # optimization module, which provides algorithms to update model parameters during training
 from torchvision import datasets, transforms # PyTorch's computer vision utilities for datasets and image transformations
@@ -17,7 +17,7 @@ transform_image = transforms.Compose([  # transform function from PyTorch
 
 # load dataset
 dataset = datasets.ImageFolder( # Load images into PyTorch dataset
-    root="images",
+    root="federated_data/client1", 
     transform=transform_image
 )
 

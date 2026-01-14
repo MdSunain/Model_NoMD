@@ -2,9 +2,9 @@
 # Step 4: Run this to perform Federated Learning across multiple clients
 
 import torch
-from step2 import train_client
-from step3 import fed_avg
-from step1 import SimpleCNN
+from client_train import train_client
+from server import fed_avg
+from model import SimpleCNN
 from torchvision import datasets, transforms
 
 # Image Cleaning Process
@@ -21,7 +21,7 @@ clients = {
     "client1": "federated_data/client1",
     "client2": "federated_data/client2",
     "client3": "federated_data/client3",
-}
+} 
 
 # Model Initialized
 global_model = SimpleCNN(num_classes=9)
@@ -30,11 +30,10 @@ global_model = SimpleCNN(num_classes=9)
 global_weights = global_model.state_dict()  # state_dict holds model parameters
 
 # number of federated rounds
-rounds = 3  
+rounds = 5
 
 for r in range(rounds):# for all rounds
     print(f"\n\t--- Federated Round {r+1} ---")
-
 
     client_updates = []# to store all client weights
     client_sizes = []  # to store all client data sizes

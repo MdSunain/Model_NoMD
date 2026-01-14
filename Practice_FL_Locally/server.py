@@ -2,7 +2,7 @@
 # Step 3: Run this to understand how server averages client models weights in Federated Learning
 
 import torch 
-from step1 import SimpleCNN
+from model import SimpleCNN
 import copy # to deep copy model weights
 
 # Load Client Models Weights

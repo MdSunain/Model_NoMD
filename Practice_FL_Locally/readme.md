@@ -9,7 +9,7 @@ install requirements ->
 # python -m venv .venv
 # venv\Scripts\activate (in Command prompt cmd)
 
-# pip install -r requirements.txt
+# pip install -r requirement.txt
 
 step 1: Defining a Model in <model.js>
 
@@ -36,6 +36,7 @@ ii. finally
     client1 --> Loss = ~ 4.5   (before: ~ 18.5)
     client2 --> Loss = ~ 5.5   (before: ~ 18.0)
     client3 --> Loss = ~ 5.0   (before: ~ 18.1)
+
 * They are close
 * They improve at similar rates
 * Bias is reducing

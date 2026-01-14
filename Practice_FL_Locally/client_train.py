@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from step1 import SimpleCNN
+from model import SimpleCNN
 
 # Image processing
 transform = transforms.Compose([
@@ -41,7 +41,7 @@ def train_client(client_path, client_name, global_weights=None):
     optimizer = optim.Adam(model.parameters(), lr=0.001) # optimizing algorithm ADAM
 
     # Training loops
-    epochs = 2
+    epochs = 4
 
     # looping
     for epoch in range(epochs):
