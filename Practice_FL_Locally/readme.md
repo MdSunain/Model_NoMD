@@ -2,7 +2,14 @@ FEDERATED LEARNING
 Prerequisite: to download dataset, you can download using this link to my google drive 
 Folder name: federated_data (Please Do Not Change the Folder Name)
 
+
 https://drive.google.com/drive/folders/1IaNSS8D4ci1cO2vVzT9GRNvcDP41IgiI?usp=sharing
+
+install requirements -> 
+# python -m venv .venv
+# venv\Scripts\activate (in Command prompt cmd)
+
+# pip install -r requirements.txt
 
 step 1: Defining a Model in <model.js>
 
