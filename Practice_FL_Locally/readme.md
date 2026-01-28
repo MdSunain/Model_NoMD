@@ -7,7 +7,7 @@ https://drive.google.com/drive/folders/1IaNSS8D4ci1cO2vVzT9GRNvcDP41IgiI?usp=sha
 
 install requirements -> 
 # python -m venv .venv
-# venv\Scripts\activate (in Command prompt cmd)
+# .venv\Scripts\activate (in Command prompt cmd)
 
 # pip install -r requirement.txt
 
